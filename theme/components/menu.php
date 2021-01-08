@@ -15,14 +15,9 @@ function menu(){ ?>
         <div class="js-fullheight table">
             <div class="table-cell js-fullheight">
                 <ul>
-                    <li style="font-size: 2em">COMING SOON</li>
-                    <!--
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="/">Home</a></li>
                     <li><a href="work.html">Work</a></li>
                     <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    -->
                 </ul>
                 <!-- Social -->
                 <p class="social-icon">

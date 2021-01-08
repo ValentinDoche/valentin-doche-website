@@ -139,13 +139,6 @@
 				loop: true
 			});
 
-			//------- Typed --------// 
-			var typed = new Typed('#typed-slide-2', {
-				stringsElement: '#typed-strings-slide-2',
-				backSpeed: 40,
-				typeSpeed: 40,
-				loop: true
-			});
 		}
 
 	var back_to_top = function () {

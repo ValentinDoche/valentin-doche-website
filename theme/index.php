@@ -55,10 +55,10 @@ function index(){ ?>
                                             <h3>I am
                                                 <span id="typed-slide-1"></span>
                                                 <span id="typed-strings-slide-1">
-                                       <span>a WebDesigner</span>
-                                       <span>a Broadcaster Producer</span>
-                                       <span>an Event organizer</span>
-                                    </span>
+                                                    <span>a WebDesigner</span>
+                                                    <span>a Broadcaster Producer</span>
+                                                    <span>an Event organizer</span>
+                                                </span>
                                             </h3>
                                         </div>
                                     </div>
