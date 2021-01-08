@@ -2,82 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a73fe2f-0d49-4170-a080-639b492704ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CV-VALENTIN-DOCHE.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/all.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/flexslider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/bootstrap/glyphicons-halflings-regular-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/bootstrap/glyphicons-halflings-regular-3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/bootstrap/glyphicons-halflings-regular-4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/bootstrap/glyphicons-halflings-regular.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/bootstrap/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/bootstrap/glyphicons-halflings-regulard41d.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/webfonts/fa-brands-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/webfonts/fa-brands-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/webfonts/fa-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/webfonts/fa-brands-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/webfonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/webfonts/fa-brands-400d41d.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/webfonts/fa-regular-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/webfonts/fa-regular-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/webfonts/fa-regular-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/webfonts/fa-regular-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/webfonts/fa-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/webfonts/fa-regular-400d41d.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/webfonts/fa-solid-900.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/webfonts/fa-solid-900.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/webfonts/fa-solid-900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/webfonts/fa-solid-900.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/webfonts/fa-solid-900.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/webfonts/fa-solid-900d41d.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Shape.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg-dots.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/favicon.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-4.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-5.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-6.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/loader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/profile-pic.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/slide_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/slide_1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tab-bg-elements.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/work-6.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/imagesloaded.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/isotope.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.countTo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.easing.1.3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.flexslider-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.waypoints.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/typed.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail/body/CV-VALENTIN-DOCHE.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail/body/barre.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail/body/signature.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail/body/sociaux/globe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail/body/sociaux/instagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail/body/sociaux/linkedin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail/body/sociaux/photo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail/body/sociaux/twitch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail/body/sociaux/twitter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail/body/vd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail/signature/it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail/signature/ln.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail/signature/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail/signature/profile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail/signature/tt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail/signature/yt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/send_mail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/work-single.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/work.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/WORKIIWIDTHBLACK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/css/flexslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/fonts/bootstrap/glyphicons-halflings-regular-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/fonts/bootstrap/glyphicons-halflings-regular-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/fonts/bootstrap/glyphicons-halflings-regular-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/fonts/bootstrap/glyphicons-halflings-regular.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/fonts/bootstrap/glyphicons-halflings-regulard41d.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/fonts/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/fonts/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/fonts/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/fonts/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/fonts/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/fonts/webfonts/fa-brands-400d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/fonts/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/fonts/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/fonts/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/fonts/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/fonts/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/fonts/webfonts/fa-regular-400d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/fonts/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/fonts/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/fonts/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/fonts/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/fonts/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/fonts/webfonts/fa-solid-900d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/images/Shape.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/images/bg-dots.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/images/favicon.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/images/img-1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/images/img-2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/images/img-3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/images/img-4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/images/img-5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/images/img-6.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/images/loader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/images/logo.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/images/profile-pic.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/images/slide_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/images/slide_1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/images/tab-bg-elements.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/images/work-6.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/js/imagesloaded.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/js/isotope.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/js/jquery.countTo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/js/jquery.easing.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/js/jquery.flexslider-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/js/jquery.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/js/typed.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/components/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/components/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/components/menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/components/scripts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/head.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/old/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,8 +92,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/theme/assets" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\valentin\Documents\GitHub\valentin-doche-website\theme\assets" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -111,7 +109,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610122078645</updated>
-      <workItem from="1610122082043" duration="2461000" />
+      <workItem from="1610122082043" duration="8104000" />
+      <workItem from="1610135415093" duration="4589000" />
     </task>
     <servers />
   </component>
