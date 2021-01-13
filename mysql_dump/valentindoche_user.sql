@@ -1,0 +1,2 @@
+insert into valentindoche.user (id, first_name, last_name, username, password, 2FA_enabled, 2FA_secret)
+values  (1, 'Valentin', 'Doche', 'valentindoche', '$2y$12$UFNkSJDiM3WQNYoUpG9hF.846rUng030FVm3127q3beU4vuaqMByG', 0, null);

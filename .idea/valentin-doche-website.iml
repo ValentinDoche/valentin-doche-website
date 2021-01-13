@@ -4,5 +4,10 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+<<<<<<< HEAD
+    <orderEntry type="library" name="jquery" level="application" />
+    <orderEntry type="library" name="tinymce" level="application" />
+=======
+>>>>>>> parent of a6af935... Update 9 Jan
   </component>
 </module>

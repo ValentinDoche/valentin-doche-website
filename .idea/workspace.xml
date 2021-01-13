@@ -1,11 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="3a73fe2f-0d49-4170-a080-639b492704ae" name="Default Changelist" comment="Update 9 Jan">
+      <change afterPath="$PROJECT_DIR$/admins/assets/images/file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/assets/images/pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/assets/images/text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/assets/images/zip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/components/media_component.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/components/post_component.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/media_create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/post_all.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/post_create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/post_modify.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_function/media_create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_function/media_delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_function/media_update.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_function/post_add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_function/post_content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_function/post_modify.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/utils.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/css/prism.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme/assets/js/prism.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/valentin-doche-website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/valentin-doche-website.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admins/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/admins/assets/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admins/assets/video/login_video.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/admins/assets/video/login_video.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admins/components/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/admins/components/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admins/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/admins/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admins/media_library.php" beforeDir="false" afterPath="$PROJECT_DIR$/admins/media_library.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/blog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/components/blog_gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/components/blog_gallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/work.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/work.php" afterDir="false" />
+=======
     <list default="true" id="3a73fe2f-0d49-4170-a080-639b492704ae" name="Default Changelist" comment="added files + router">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/theme/assets/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/theme/assets/js/custom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/theme/components/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/components/menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/theme/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/index.php" afterDir="false" />
+>>>>>>> parent of a6af935... Update 9 Jan
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,14 +65,35 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
+    <property name="database.data.extractors.current.export.id" value="SQL-Insert-Multirow.sql.groovy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/theme/assets/js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.statistic.project.settings" />
+=======
     <property name="last_opened_file_path" value="$PROJECT_DIR$/theme/assets" />
     <property name="nodejs_package_manager_path" value="npm" />
+>>>>>>> parent of a6af935... Update 9 Jan
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
+      <recent name="C:\Users\valentin\Documents\GitHub\valentin-doche-website\theme\assets\js" />
+      <recent name="C:\Users\valentin\Documents\GitHub\valentin-doche-website\theme\assets\css" />
+      <recent name="C:\Users\valentin\Documents\GitHub\valentin-doche-website\admins\assets\images" />
+      <recent name="C:\Users\valentin\Documents\GitHub\valentin-doche-website\uploads" />
+      <recent name="C:\Users\valentin\Documents\GitHub\valentin-doche-website\admins\assets\video" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\valentin\Documents\GitHub\valentin-doche-website\admins\assets\video" />
+      <recent name="C:\Users\valentin\Documents\GitHub\valentin-doche-website\theme\assets\images" />
+    </key>
+=======
       <recent name="C:\Users\valentin\Documents\GitHub\valentin-doche-website\theme\assets" />
     </key>
+>>>>>>> parent of a6af935... Update 9 Jan
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -46,7 +104,22 @@
       <option name="presentableId" value="Default" />
       <updated>1610122078645</updated>
       <workItem from="1610122082043" duration="8104000" />
+<<<<<<< HEAD
+      <workItem from="1610135415093" duration="11520000" />
+      <workItem from="1610149446608" duration="5669000" />
+      <workItem from="1610183654841" duration="35055000" />
+      <workItem from="1610271966871" duration="6214000" />
+      <workItem from="1610282735367" duration="324000" />
+      <workItem from="1610283203912" duration="8677000" />
+      <workItem from="1610300769596" duration="5129000" />
+      <workItem from="1610313470679" duration="911000" />
+      <workItem from="1610355705630" duration="4311000" />
+      <workItem from="1610369098744" duration="161000" />
+      <workItem from="1610369402681" duration="1352000" />
+      <workItem from="1610394768626" duration="7312000" />
+=======
       <workItem from="1610135415093" duration="6260000" />
+>>>>>>> parent of a6af935... Update 9 Jan
     </task>
     <task id="LOCAL-00001" summary="added files + router">
       <created>1610140301885</created>
@@ -55,7 +128,25 @@
       <option name="project" value="LOCAL" />
       <updated>1610140301885</updated>
     </task>
+<<<<<<< HEAD
+    <task id="LOCAL-00002" summary="Old Remove">
+      <created>1610142928203</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610142928203</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update 9 Jan">
+      <created>1610215259341</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610215259341</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+=======
     <option name="localTasksCounter" value="2" />
+>>>>>>> parent of a6af935... Update 9 Jan
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,6 +165,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added files + router" />
+<<<<<<< HEAD
+    <MESSAGE value="Old Remove" />
+    <MESSAGE value="Update 9 Jan" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 9 Jan" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+=======
     <option name="LAST_COMMIT_MESSAGE" value="added files + router" />
+>>>>>>> parent of a6af935... Update 9 Jan
   </component>
 </project>
