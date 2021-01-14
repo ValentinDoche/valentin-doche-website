@@ -1,7 +1,7 @@
 <?php
 function admin_post_component($post){ ?>
     <tr id="post-<?=$post['id']?>">
-        <td><?=$post['title']?></td>
+        <td><?=$post['title']?> <?=$post['publish'] == 1 ? '✅' : '❌' ?></td>
         <td><?=$post['short_description']?></td>
         <td class="post-button">
             <a class="btn waves-effect waves-light" href="/blog/<?=$post['slug']?>">SEE</a>

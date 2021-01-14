@@ -118,10 +118,11 @@ function workCategories(){
     $statement->execute();
     return $statement->fetchAll();
 }
-function workAll(){
+function workAll($publish){
     global $pdo;
-    $statement = $pdo->prepare("SELECT * FROM work WHERE publish=1 ORDER BY id DESC;");
-    $statement->execute();
+    $payload = [$publish];
+    $statement = $pdo->prepare("SELECT * FROM work WHERE publish>=? ORDER BY id DESC;");
+    $statement->execute($payload);
     return $statement->fetchAll();
 }
 function workExist($slug) {
@@ -174,7 +175,46 @@ function workDate($slug){
     $date = explode('-', $result['date_created']);
     return $date[2]." ".$month[intval($date[1])]." ".$date[0];
 }
-
+function workAdd($title, $slug, $categories, $content, $image, $publish, $meta_description){
+    global $pdo;
+    $payload = [$title, $slug, $categories, $content, $image, strintBoolToInt($publish), $meta_description];
+    $statement = $pdo->prepare("INSERT INTO work (title, slug, categories, content, image, publish, meta_description) VALUES (?, ?, ?, ?, ?, ?, ?)");
+    $ask = $statement->execute($payload);
+    if ($ask){
+        return true;
+    }else{
+        return false;
+    }
+}
+function workUpdate($title, $slug, $categories, $content, $image, $publish, $meta_description, $id){
+    global $pdo;
+    $payload = [$title, $slug, $categories, $content, $image, strintBoolToInt($publish), $meta_description, $id];
+    $statement = $pdo->prepare("UPDATE work SET title = ?, slug = ?, categories = ?, content = ?, image = ?, publish = ?, meta_description = ? WHERE id = ?");
+    $ask = $statement->execute($payload);
+    if ($ask){
+        return true;
+    }else{
+        return false;
+    }
+}
+function workID($id){
+    global $pdo;
+    $payload = [$id];
+    $statement = $pdo->prepare("SELECT * FROM work WHERE id = ?");
+    $statement->execute($payload);
+    return $statement->fetch();
+}
+function workDelete($id){
+    global $pdo;
+    $payload = [$id];
+    $statement = $pdo->prepare("DELETE FROM work WHERE id=?");
+    $ask = $statement->execute($payload);
+    if ($ask){
+        return true;
+    }else{
+        return false;
+    }
+}
 # LOGIN
 function login($username){
     global $pdo;
@@ -238,4 +278,19 @@ function mediaDelete($id){
     }else{
         return false;
     }
+}
+
+#Categories
+function cateAll(){
+    global $pdo;
+    $statement = $pdo->prepare("SELECT * FROM categories ORDER BY name");
+    $statement->execute();
+    return $statement -> fetchAll();
+}
+function cateID($id){
+    global $pdo;
+    $payload = [$id];
+    $statement = $pdo->prepare("SELECT * FROM categories WHERE id = ?");
+    $statement->execute($payload);
+    return $statement -> fetch();
 }

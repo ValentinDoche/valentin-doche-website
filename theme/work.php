@@ -28,7 +28,7 @@ function work($slug){ ?>
                                 <img src="/theme/assets/images/signature.png" width="150">
                             </p>
                             <p style="text-align: center">
-                                <a class="btn btn-primary" href="/blog" style="">Return to Work</a>
+                                <a class="btn btn-primary" href="/work" style="">Return to Work</a>
                             </p>
                         </div>
                     </div>

@@ -34,7 +34,7 @@ function works(){ ?>
                         <div class="col-lg-12">
                             <div class="work-gallery">
                                 <?php
-                                foreach (workAll() as $item){
+                                foreach (workAll(1) as $item){
                                     work_gallery($item['title'], explode(",",$item['categories']), $item['slug']);
                                 }
                                 ?>

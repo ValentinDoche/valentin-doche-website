@@ -111,6 +111,22 @@ switch ($request[0]){
                                 break;
                         }
                         break;
+                    case 'work':
+                        switch ($request[2]) {
+                            case 'all':
+                                admin_head("Valentin Doche - Work All");
+                                admin_work_all();
+                                break;
+                            case 'add':
+                                admin_head("Valentin Doche - Work Add");
+                                admin_work_add();
+                                break;
+                            case 'modify':
+                                admin_head("Valentin Doche - Work Modify");
+                                admin_work_modify(workID($request[3]));
+                                break;
+                        }
+                        break;
                 }
             }elseif ($request[1] === "login"){
                 if (isset($request[2])){
@@ -171,6 +187,25 @@ switch ($request[0]){
                             break;
                         case 'delete':
                             api_post_delete();
+                            break;
+                        default:
+                            header("location:/403");
+                            break;
+                    }
+                    break;
+                case 'work':
+                    switch ($request[2]){
+                        case 'content':
+                            api_work_content();
+                            break;
+                        case 'add':
+                            api_work_create();
+                            break;
+                        case 'update':
+                            api_work_modify();
+                            break;
+                        case 'delete':
+                            api_work_delete();
                             break;
                         default:
                             header("location:/403");
