@@ -170,6 +170,7 @@ switch ($request[0]){
                             api_post_modify();
                             break;
                         case 'delete':
+                            api_post_delete();
                             break;
                         default:
                             header("location:/403");

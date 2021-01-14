@@ -98,6 +98,17 @@ function blogUpdate($title, $slug, $meta_description, $short_description, $conte
         return false;
     }
 }
+function blogDelete($id){
+    global $pdo;
+    $payload = [$id];
+    $statement = $pdo->prepare("DELETE FROM post WHERE id=?");
+    $ask = $statement->execute($payload);
+    if ($ask){
+        return true;
+    }else{
+        return false;
+    }
+}
 
 # WORK
 
