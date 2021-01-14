@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a73fe2f-0d49-4170-a080-639b492704ae" name="Default Changelist" comment="added files + router">
+    <list default="true" id="3a73fe2f-0d49-4170-a080-639b492704ae" name="Default Changelist" comment="Update 9 Jan">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/assets/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/theme/assets/js/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/components/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/components/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +11,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,16 +29,28 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/theme/assets" />
+    <property name="database.data.extractors.current.export.id" value="SQL-Insert-Multirow.sql.groovy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/theme/assets/js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.statistic.project.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\valentin\Documents\GitHub\valentin-doche-website\theme\assets" />
+      <recent name="C:\Users\valentin\Documents\GitHub\valentin-doche-website\theme\assets\js" />
+      <recent name="C:\Users\valentin\Documents\GitHub\valentin-doche-website\theme\assets\css" />
+      <recent name="C:\Users\valentin\Documents\GitHub\valentin-doche-website\admins\assets\images" />
+      <recent name="C:\Users\valentin\Documents\GitHub\valentin-doche-website\uploads" />
+      <recent name="C:\Users\valentin\Documents\GitHub\valentin-doche-website\admins\assets\video" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\valentin\Documents\GitHub\valentin-doche-website\admins\assets\video" />
+      <recent name="C:\Users\valentin\Documents\GitHub\valentin-doche-website\theme\assets\images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -46,7 +62,18 @@
       <option name="presentableId" value="Default" />
       <updated>1610122078645</updated>
       <workItem from="1610122082043" duration="8104000" />
-      <workItem from="1610135415093" duration="6260000" />
+      <workItem from="1610135415093" duration="11520000" />
+      <workItem from="1610149446608" duration="5669000" />
+      <workItem from="1610183654841" duration="35055000" />
+      <workItem from="1610271966871" duration="6214000" />
+      <workItem from="1610282735367" duration="324000" />
+      <workItem from="1610283203912" duration="8677000" />
+      <workItem from="1610300769596" duration="5129000" />
+      <workItem from="1610313470679" duration="911000" />
+      <workItem from="1610355705630" duration="4311000" />
+      <workItem from="1610369098744" duration="161000" />
+      <workItem from="1610369402681" duration="1352000" />
+      <workItem from="1610394768626" duration="7312000" />
     </task>
     <task id="LOCAL-00001" summary="added files + router">
       <created>1610140301885</created>
@@ -55,7 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610140301885</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Old Remove">
+      <created>1610142928203</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610142928203</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update 9 Jan">
+      <created>1610215259341</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610215259341</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,9 +112,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added files + router" />
-    <option name="LAST_COMMIT_MESSAGE" value="added files + router" />
+    <MESSAGE value="Old Remove" />
+    <MESSAGE value="Update 9 Jan" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 9 Jan" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

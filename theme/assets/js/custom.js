@@ -129,17 +129,18 @@
 			} , { offset: '90%' } );
 		}
 	};
-
+if(document.location.pathname === "/"){
 	var typed = function () {
-			//------- Typed --------// 
-			var typed = new Typed('#typed-slide-1', {
-				stringsElement: '#typed-strings-slide-1',
-				backSpeed: 40,
-				typeSpeed: 40,
-				loop: true
-			});
+		//------- Typed --------//
+		var typed = new Typed('#typed-slide-1', {
+			stringsElement: '#typed-strings-slide-1',
+			backSpeed: 40,
+			typeSpeed: 40,
+			loop: true
+		});
 
-		}
+	}
+}
 
 	var back_to_top = function () {
 	$(window).on('scroll', function () {
@@ -176,7 +177,9 @@
 		sliderMain();
 		contentWayPoint();
 		counterWayPoint();
-		typed();
+		if(document.location.pathname === "/"){
+			typed();
+		}
 		back_to_top();
 		header_sticky();
 	});

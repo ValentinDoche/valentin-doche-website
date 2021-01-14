@@ -5,7 +5,30 @@
 .plus::before{
   content: "+";
 }
-
+#error_status{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+}
+#error_status p.code-error{
+  font-size: 12vw;
+  font-weight: 900;
+  color: #99999908;
+  margin: 0;
+  line-height: 4vw;
+}
+#error_status p.code-detail{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 4vw;
+  color: #99999908;
+}
+#error_status a{
+  font-size: 1vw;
+}
 /*======================
         1.FONTS
 ========================*/
@@ -366,7 +389,7 @@ hr {
 }
 
 .social-icon a i:hover {
-  color: #000;
+  color: #e1b783;
 }
 
 .social-links {

@@ -15,7 +15,7 @@ function footer(){ ?>
                             <a href="https://portfolio.valentindoche.com/"><i class="fas fa-camera-retro"></i></a>
                         </p>
                         <!-- Copyright -->
-                        <p><a href="https://valentindoche.com">&copy; Valentin Doche 2020</a></p>
+                        <p><a href="https://valentindoche.com">&copy; Valentin Doche <?=date('Y')?></a></p>
                     </div>
                 </div>
             </div>
