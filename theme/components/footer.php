@@ -9,10 +9,10 @@ function footer(){ ?>
                         <h2><a class="footer-logo" href="/"><img src="/theme/assets/images/logo.webp" height="100"></a></h2>
                         <!-- Social -->
                         <p class="social-icon">
-                            <a href="https://www.facebook.com/dochevalentin/"><i class="fab fa-facebook-square"></i></a>
-                            <a href="https://twitter.com/valentindoche"><i class="fab fa-twitter-square"></i></a>
-                            <a href="https://www.instagram.com/valentindoche/"><i class="fab fa-instagram"></i></a>
-                            <a href="https://portfolio.valentindoche.com/"><i class="fas fa-camera-retro"></i></a>
+                            <a href="https://www.facebook.com/dochevalentin/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://twitter.com/valentindoche" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                            <a href="https://www.instagram.com/valentindoche/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://portfolio.valentindoche.com/" target="_blank"><i class="fas fa-camera-retro"></i></a>
                         </p>
                         <!-- Copyright -->
                         <p><a href="https://valentindoche.com">&copy; Valentin Doche <?=date('Y')?></a></p>
