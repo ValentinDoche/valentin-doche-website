@@ -19,7 +19,7 @@ function blog_section(){ ?>
                 for ($i = 0; $i < 3; $i++){ ?>
                     <div class="col-md-4">
                         <div class="blog">
-                            <a href="/blog/<?=$blogs[$i]['slug']?>"><img class="img-responsive" src="<?=$blogs[$i]['image']?>" alt=""></a>
+                            <a href="/blog/<?=$blogs[$i]['slug']?>"><img class="img-responsive" src="<?=$blogs[$i]['image']?>" alt="" style="height: 240px;object-fit: cover;"></a>
                             <div class="blog-text">
                                 <span class="posted_on"><?=blogDate($blogs[$i]['slug'])?></span>
                                 <h3><a href="blog.html"><?=$blogs[$i]['title']?></a></h3>

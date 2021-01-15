@@ -6,7 +6,7 @@ function work_gallery($title, $category, $slug, $image="uploads/default.jpg"){ ?
         echo cateID((int)$categories)['name'].' ';
     }?> ">
         <div class="work">
-            <img class="img-fluid" src="/<?=$image?>" alt="">
+            <img class="img-fluid" src="/<?=$image?>" alt="" style="height: 360px;object-fit: cover;">
             <div class="desc">
                 <div class="con">
                     <h3><a href="work/<?=$slug?>"><?=$title?></a></h3>

@@ -36,7 +36,7 @@ function work_section(){ ?>
                                 echo cateID((int)$categories)['name'].' ';
                             }?> ">
                                 <div class="work">
-                                    <img class="img-fluid" src="<?=$work[$i]['image']?>" alt="">
+                                    <img class="img-fluid" src="<?=$work[$i]['image']?>" alt="" style="height: 240px; object-fit: cover">
                                     <div class="desc">
                                         <div class="con">
                                             <h3><a href="work/<?=$work[$i]['slug']?>"><?=$work[$i]['title']?></a></h3>

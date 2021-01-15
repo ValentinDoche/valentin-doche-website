@@ -35,7 +35,7 @@ function works(){ ?>
                             <div class="work-gallery">
                                 <?php
                                 foreach (workAll(1) as $item){
-                                    work_gallery($item['title'], explode(",",$item['categories']), $item['slug']);
+                                    work_gallery($item['title'], explode(",",$item['categories']), $item['slug'], $item['image']);
                                 }
                                 ?>
                             </div>
