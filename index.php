@@ -125,6 +125,12 @@ switch ($request[0]){
                                 admin_head("Valentin Doche - Work Modify");
                                 admin_work_modify(workID($request[3]));
                                 break;
+                            case 'categories':
+                                admin_head("Valentin Doche - Categories");
+                                admin_cate_all();
+                                break;
+                            default:
+                                header('location:/404');
                         }
                         break;
                 }
@@ -206,6 +212,23 @@ switch ($request[0]){
                             break;
                         case 'delete':
                             api_work_delete();
+                            break;
+                        default:
+                            header("location:/403");
+                            break;
+                    }
+                    break;
+                case 'cate':
+                    switch ($request[2]){
+                        case 'add':
+                            api_cate_create();
+                            break;
+                        case 'update':
+                            #api_work_modify();
+                            header("location:/403");
+                            break;
+                        case 'delete':
+                            api_cate_delete();
                             break;
                         default:
                             header("location:/403");

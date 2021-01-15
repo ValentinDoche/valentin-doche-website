@@ -294,3 +294,25 @@ function cateID($id){
     $statement->execute($payload);
     return $statement -> fetch();
 }
+function cateDelete($id){
+    global $pdo;
+    $payload = [$id];
+    $statement = $pdo->prepare("DELETE FROM categories WHERE id=?");
+    $ask = $statement->execute($payload);
+    if ($ask){
+        return true;
+    }else{
+        return false;
+    }
+}
+function cateAdd($name){
+    global $pdo;
+    $payload = [$name];
+    $statement = $pdo->prepare("INSERT INTO categories (name) VALUES (?)");
+    $ask = $statement->execute($payload);
+    if ($ask){
+        return true;
+    }else{
+        return false;
+    }
+}
