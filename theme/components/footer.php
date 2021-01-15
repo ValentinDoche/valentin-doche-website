@@ -6,7 +6,7 @@ function footer(){ ?>
                 <div class="row copy-right">
                     <div class="col-md-6 col-md-offset-3 text-center">
                         <!-- Footer logo -->
-                        <h2><a class="footer-logo" href="index.html"><img src="/theme/assets/images/logo.webp" height="100"></a></h2>
+                        <h2><a class="footer-logo" href="/"><img src="/theme/assets/images/logo.webp" height="100"></a></h2>
                         <!-- Social -->
                         <p class="social-icon">
                             <a href="https://www.facebook.com/dochevalentin/"><i class="fab fa-facebook-square"></i></a>
