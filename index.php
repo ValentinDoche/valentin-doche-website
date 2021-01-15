@@ -40,39 +40,39 @@ switch ($request[0]){
     case "work":
         if (isset($request[1])){
             if (workExist($request[1])){
-                head("Valentin Doche - ".workTitle($request[1]), workMetadescription($request[1]));
+                head(workTitle($request[1])." | Valentin Doche", workMetadescription($request[1]));
                 work($request[1]);
             }else{
                 header('location:/404');
             }
         }else{
-            head("Valentin Doche - Work");
+            head("Work | Valentin Doche");
             works();
         }
         break;
     case "blog":
         if (isset($request[1])){
             if (blogExist($request[1])){
-                head("Valentin Doche - ".blogTitle($request[1]), blogMetadescription($request[1]));
+                head(blogTitle($request[1])." | Valentin Doche", blogMetadescription($request[1]));
                 post($request[1]);
             }else{
                 header('location:/404');
             }
 
         }else{
-            head("Valentin Doche - Blog");
+            head("Blog | Valentin Doche");
             blog();
         }
         break;
     #ERROR CODE
     case 403:
         http_response_code(403);
-        head("Valentin Doche - 403 Error");
+        head("403 Error | Valentin Doche");
         error_html(403);
         break;
     case 404:
         http_response_code(404);
-        head("Valentin Doche - 404 Error");
+        head("404 Error | Valentin Doche");
         error_html(404);
         break;
     #ADMIN INTERFACE
@@ -83,11 +83,11 @@ switch ($request[0]){
                     case "media":
                         switch ($request[2]){
                             case 'library':
-                                admin_head("Valentin Doche - Media Library");
+                                admin_head("Media Library | Valentin Doche");
                                 admin_media_library();
                                 break;
                             case 'add':
-                                admin_head("Valentin Doche - Media Add");
+                                admin_head("Media Add | Valentin Doche");
                                 admin_media_create();
                                 break;
                             default:
@@ -97,15 +97,15 @@ switch ($request[0]){
                     case 'post':
                         switch ($request[2]){
                             case 'all':
-                                admin_head("Valentin Doche - Post All");
+                                admin_head("Post All | Valentin Doche");
                                 admin_post_all();
                                 break;
                             case 'add':
-                                admin_head("Valentin Doche - Post Add");
+                                admin_head("Post Add | Valentin Doche");
                                 admin_post_add();
                                 break;
                             case 'modify':
-                                admin_head("Valentin Doche - Post Modify");
+                                admin_head("Post Modify | Valentin Doche");
                                 admin_post_modify(blogID($request[3]));
                                 break;
                         }
@@ -113,15 +113,15 @@ switch ($request[0]){
                     case 'work':
                         switch ($request[2]) {
                             case 'all':
-                                admin_head("Valentin Doche - Work All");
+                                admin_head("Work All | Valentin Doche");
                                 admin_work_all();
                                 break;
                             case 'add':
-                                admin_head("Valentin Doche - Work Add");
+                                admin_head("Work Add | Valentin Doche");
                                 admin_work_add();
                                 break;
                             case 'modify':
-                                admin_head("Valentin Doche - Work Modify");
+                                admin_head("Work Modify | Valentin Doche");
                                 admin_work_modify(workID($request[3]));
                                 break;
                             case 'categories':
