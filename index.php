@@ -156,7 +156,7 @@ switch ($request[0]){
                     api_login();
                     break;
                 case 'logout':
-                    api_logout();;
+                    api_logout();
                     break;
                 case 'media':
                     switch ($request[2]){
