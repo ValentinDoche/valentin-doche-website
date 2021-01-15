@@ -19,10 +19,10 @@ function index(){ ?>
                 <div class="flexslider js-fullheight">
                     <!-- Social -->
                     <ul class="list-unstyled ml-5 mt-3 position-relative social-links">
-                        <li class="mb-3"><a href="https://www.facebook.com/dochevalentin/"><i class="fab fa-facebook-f"></i></a></li>
-                        <li class="mb-3"><a href="https://twitter.com/valentindoche"><i class="fab fa-twitter"></i></a></li>
-                        <li class="mb-3"><a href="https://www.instagram.com/valentindoche/"><i class="fab fa-instagram"></i></a></li>
-                        <li class="mb-3"><a href="https://portfolio.valentindoche.com/"><i class="fas fa-camera-retro"></i></a></li>
+                        <li class="mb-3"><a href="https://www.facebook.com/dochevalentin/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="mb-3"><a href="https://twitter.com/valentindoche" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li class="mb-3"><a href="https://www.instagram.com/valentindoche/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li class="mb-3"><a href="https://portfolio.valentindoche.com/" target="_blank"><i class="fas fa-camera-retro"></i></a></li>
                     </ul>
                     <!-- Slider -->
                     <ul class="slides">
