@@ -253,6 +253,8 @@ function index(){ ?>
                 </div>
             </div>
             <!-- End Counters Section -->
+            <?=work_section()?>
+            <?=blog_section()?>
             <?=contact()?>
             <?=footer()?>
         </div>
