@@ -14,14 +14,12 @@
 <h3 align="center">Valentin Doche WebSite</h3>
 
   <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    Transform static Html Website with blog section and admin dashboard
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/valentindoche/valentin-doche-website/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/valentindoche/valentin-doche-website/issues">Request Feature</a>
   </p>
 </p>
 
@@ -31,7 +29,6 @@
 
 ![](.github/website.png)
 
-Here's a blank template to get started:
 
 
 ### Built With
@@ -56,7 +53,7 @@ Distributed under the AGPL-3.0 License. See `LICENSE` for more information.
 
 Valentin Doche - [@valetindoche](https://twitter.com/valentindoche) - pro@valentindoche.com
 
-Project Link: [https://github.com/valentindoche/valentin-doche-website](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/valentindoche/valentin-doche-website](https://github.com/valentindoche/valentin-doche-website)
 
 
 
