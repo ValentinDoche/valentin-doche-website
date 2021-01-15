@@ -1,6 +1,3 @@
-
-
-
 <?php
 function work_gallery($title, $category, $slug, $image="uploads/default.jpg"){ ?>
     <div class="col-lg-6 col-md-6 col-sm-12 all

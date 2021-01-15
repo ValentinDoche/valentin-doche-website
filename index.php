@@ -10,7 +10,6 @@ if (isset($_GET["request"])){
     $request = '/';
 }
 
-
 # Include
 foreach (glob('theme/*.php') as $filename){
     include $filename;
@@ -153,7 +152,6 @@ switch ($request[0]){
             }
         }
         break;
-
     #API INTERFACE
     case 'api':
         if (isset($request[1])){
@@ -247,5 +245,3 @@ switch ($request[0]){
         header("location:/404");
         break;
 }
-
-
