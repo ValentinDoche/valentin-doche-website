@@ -15,9 +15,9 @@ function menu(){ ?>
         <div class="js-fullheight table">
             <div class="table-cell js-fullheight">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/work">Work</a></li>
-                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="/">Accueil</a></li>
+                    <li><a href="/work">Mes Projets</a></li>
+                    <li><a href="/blog">Mon Blog</a></li>
                 </ul>
                 <!-- Social -->
                 <p class="social-icon">

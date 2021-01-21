@@ -6,17 +6,17 @@ function work_section(){ ?>
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center heading">
                     <div class="header-page">
-                        <h2>My Projects</h2>
+                        <h2>Mes Projects</h2>
                         <span></span>
                     </div>
                     <span class="heading-meta-sub">PORTFOLIO</span>
-                    <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+                    <p>Impossible de trouver une passion vous trouverez tous mes projets ci-dessous que l'entreprends.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12 px-25 text-center">
                     <ul class="work-filter">
-                        <li class="filter all active" data-filter="*">All</li>
+                        <li class="filter all active" data-filter="*">Tous</li>
                         <?php
                         foreach (workCategories() as $item){?>
                             <li class="filter" data-filter=".<?=$item['name']?>" style="text-transform: capitalize"><?=$item['name']?></li>

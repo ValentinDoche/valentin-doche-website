@@ -6,11 +6,11 @@ function blog_section(){ ?>
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center heading">
                     <div class="header-page">
-                        <h2>Blog</h2>
+                        <h2>Mon Blog</h2>
                         <span></span>
                     </div>
                     <span class="heading-meta-sub">BLOG</span>
-                    <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+                    <p>Un endroit où je peux encore raconter mes différentes passions. Vous y retrouverez des tutoriels, des recettes, des tips.</p>
                 </div>
             </div>
             <div class="row">

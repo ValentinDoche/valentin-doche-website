@@ -26,6 +26,15 @@ function head($title, $metadescription="Valentin Doche is a student in Web Marke
             <!-- Prism -->
             <link rel="stylesheet" type="text/css" href="/theme/assets/css/prism.css">
             <script src="/theme/assets/js/prism.js"></script>
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-780SJYV3PG"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'G-780SJYV3PG');
+            </script>
         </head>
 <?php
 }

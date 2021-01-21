@@ -6,7 +6,7 @@ function contact(){ ?>
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center heading">
                     <div class="header-page">
-                        <h2>Get In Touch</h2>
+                        <h2>Restons En Contact.</h2>
                         <span></span>
                     </div>
                     <span class="heading-meta-sub">CONTACT</span>
@@ -16,7 +16,7 @@ function contact(){ ?>
                 <div class="col-md-3 col-md-push-1">
                     <ul class="contact-info">
                         <li><i class="fas fa-map-marked-alt"></i>Lyon, France</li>
-                        <li><i class="fas fa-phone-alt"></i>+33 628-158-307</li>
+                        <li><i class="fas fa-phone-alt"></i>+33 6-28-15-83-07</li>
                         <li><i class="fas fa-envelope"></i><a href="mailto:contact@valentindoche.com">contact@valentindoche.com</a></li>
                         <li><i class="fas fa-globe"></i><a href="valentindoche.com">valentindoche.com</a></li>
                     </ul>
@@ -26,7 +26,7 @@ function contact(){ ?>
                         <form method="post" action="send_mail.php">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Name" name="name" required>
+                                    <input type="text" class="form-control" placeholder="Nom" name="name" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -41,7 +41,7 @@ function contact(){ ?>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group text-right">
-                                    <input type="submit" value="Send Message" class="btn btn-primary">
+                                    <input type="submit" value="Envoyé" class="btn btn-primary">
                                 </div>
                             </div>
                             <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
